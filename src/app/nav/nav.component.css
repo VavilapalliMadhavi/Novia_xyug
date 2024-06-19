@@ -1,0 +1,493 @@
+/* Navigation bar ------------------------------------------------------------------------ */
+.navbar{
+    background-color: #003E59;
+}
+
+
+#logo1{
+    width: 87px;
+    margin-left: 120px;
+}
+
+.nav-item .active{
+    font-family: 'Lora', serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    text-align: left;
+    color: #E3BD86;
+    
+}
+.nav-link{
+    color: #eeeeee;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    text-align: left;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+
+.navbar-toggler {
+    background-color: #003E59;
+    border-color: white;
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+    border-color: white;
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255, 255, 255, 1)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+/* Carousal ------------------------------------------------------------------------*/
+
+.banner{
+    margin-top: 55px;
+}
+
+
+/* Products  ------------------------------------------------------------------------ */
+ #product{
+    margin-top: 100px;
+ }
+
+
+
+.custom-image {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%;
+    object-fit: cover;   
+  }
+  .custom-paragraph {
+    height: 23px;
+    font-size: 15px;
+    line-height: 22.5px; 
+    text-align: center !important; 
+    font-weight: 400; 
+    font-family:  'Poppins', sans-serif;
+    padding-top: 20px;
+  }
+
+
+  /* section below ------------------------------------------------------------------------*/
+
+  .scrollable-container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    gap: 20px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.assured {
+    display: inline-block;
+    white-space: normal;
+    text-align: center; 
+    flex-shrink: 0; 
+}
+.assured_para {
+    font-family: Lora;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 17.92px;
+text-align: center;
+    color: #333333;
+}
+.assured img {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.assured_container{
+    margin-top: 100px;
+}
+
+
+.assured img:hover {
+    transform: scale(1.5); 
+}
+
+/* About Section */
+#about{
+    margin-top: 70px;
+
+}
+ .ring{
+    padding: 0px 0px 0px 5%;
+ }
+
+
+ .box1{
+    padding: 0px 0px 0px 3%;
+ }
+
+#ring{
+    width: 282px;   
+}
+
+#box1{
+     width:282px;
+     margin-bottom:24px;
+}
+
+#box2{
+    width:282px;
+}
+
+#aboutus{
+    padding:48px 48px 48px 120px ;
+}
+
+#us{
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #E3BD86;
+
+}
+
+#sub{
+font-family: Lora;
+font-size: 36px;
+font-weight: 700;
+line-height: 46.08px;
+text-align: left;
+color: #111111;
+}
+
+#world{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #555555;
+
+} 
+
+
+
+
+/* Contact us */
+
+#con{
+    font-family: Lora;
+font-size: 36px;
+font-weight: 700;
+line-height: 46.08px;
+text-align: center;
+color: #111111;
+}
+
+#para{
+   
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #555555;
+
+
+}
+
+#top{
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+
+.col-lg-3{
+    text-align: center;
+}
+
+.image{
+    width: 40px;
+    margin-bottom: 10%;
+}
+
+#num{
+ 
+height: 24px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #111111;
+
+}
+
+#para1{
+   
+font-family: Lora;
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+color: #555555;
+
+}
+
+#para2{
+  
+font-family: Lora;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #555555 ;
+
+
+}
+
+
+#contact{
+    margin-bottom: 8%;
+} 
+
+
+/* Footer  ------------------------------------------------------------------------*/
+
+footer{
+    background-color: #003E59;
+    margin-top: 100px;
+}
+
+.logo{
+    text-align: left;
+    padding-left: 50px;
+}
+#logo{
+    padding-top: 40px;
+    width: 91px;
+}
+.footer_nav1{
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    padding-top: 55px; 
+    color: #ffffff;
+    font-family: Lora;
+    font-style: italic;
+}
+.footer_nav{
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    padding-top: 70px; 
+    color: #ffffff;
+    font-family: Lora;
+    font-style: italic;
+    padding-left: 40px;
+}
+.follow_us_maindiv{
+    padding-top: 49px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.footer_followus{
+    width: 24px;
+    height: 24px;
+}
+.payments{
+    padding-top: 55px;
+}
+.payment{
+    width: 30.59px;
+ 
+}
+.designed_by{
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.92px;
+    color: #FFFFFF;
+    text-align: right;
+    padding-top: 70px;
+}
+a,.xyug{
+text-decoration: none;
+color: #FFFFFF;
+font-family: Lora;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.92px;
+}
+
+.footer_space_bottom{
+    padding-bottom: 34px;
+}
+
+
+@media  (max-width:320px){
+    .custom-image {
+        height: 150px;  
+      }
+}
+@media screen and (max-width:425px){
+    .designed_by {
+        
+        text-align: left !important;
+    
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .scrollable-container {
+        overflow-x: auto; 
+    }
+  
+
+}
+
+@media (min-width: 1440px) {
+    .scrollable-container {
+        justify-content: space-between; 
+    }
+
+    .assured {
+        flex: 1 1 auto; 
+        max-width: 20%; 
+    }
+}
+
+@media (max-width: 425px) and (min-width: 320px){
+    .banner{
+        height: 200px;
+    }
+
+    #product{
+        margin-top:30px ;
+    }
+    #about{
+        margin-top: 50px;
+    }
+    #box1{
+        margin-top: 25px;
+    }
+    .logo{
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    #logo{
+        padding-top: 20px;
+    }
+
+    .footer_nav1{
+        font-weight: 400;
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-size: 14px;
+        color: #ffffff;
+        padding-top: 30px;
+    }
+    .payment{
+        width: 25px;
+     
+    }
+
+    .follow_us_maindiv{
+        padding-top: 25px;
+    }
+
+    .footer_nav{
+        padding-top: 30px; 
+        padding-left: 8px;
+    }
+
+    .payments{
+        padding-top: 20px;
+    }
+
+    .designed_by{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    #logo1{
+        margin-left: 0px;
+    }
+    .col-6{
+        display: none;
+    }
+
+    #aboutus{
+        padding:0px 0px 0px 0px;
+        margin-top: 20px;
+    }
+    .logo{
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    #logo{
+        padding-top: 20px;
+    }
+
+    .footer_nav1{
+        font-weight: 400;
+        font-family: "Lora", serif;
+        font-style: italic;
+        font-size: 14px;
+        color: #ffffff;
+        padding-top: 30px;
+    }
+    .payment{
+        width: 25px;
+     
+    }
+
+    .follow_us_maindiv{
+        padding-top: 25px;
+    }
+
+    .designed_by{
+        padding-top: 30px;
+    }
+
+    .footer_nav{
+        padding-top: 30px; 
+        padding-left: 8px;
+    }
+
+    .payments{
+        padding-top: 18px;
+    }
+
+}
+@media (width: 1024px){
+.box1{
+    display: none;
+}
+#aboutus{
+    margin-left: 20%;
+    padding: 0px !important;
+    margin-top: 5%;
+}
+.custom-image {
+    height: 150px;  
+  }
+
+}
+
